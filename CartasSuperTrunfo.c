@@ -6,7 +6,8 @@
 
 int main() {
 
-  char estado1;
+    // Declaração das variáveis para a Carta 1
+    char estado1;
     char codigo1[4];
     char nomeCidade1[50];
     int populacao1;
@@ -38,7 +39,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // Cadastro da Carta 2 (Repetir o processo)
+    // Cadastro da Carta 2
     printf("\n--- Cadastro da Carta 2 ---\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
@@ -74,8 +75,6 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
-
-  
 
 return 0;
 } 
